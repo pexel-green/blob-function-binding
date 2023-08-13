@@ -1,0 +1,12 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "myPhoto",
+            "type": "blobTrigger",
+            "direction": "in",
+            "path": "photos/{folderUser}/{blobname}.{blobextension}",
+            "connection": "MyStorageAccountAppSetting"
+        }
+    ]
+}

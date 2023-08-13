@@ -1,0 +1,12 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "name": "myVideo",
+            "type": "blobTrigger",
+            "direction": "in",
+            "path": "videos/{folderUser}/{blobname}.{blobextension}",
+            "connection": "MyStorageAccountAppSetting"
+        }
+    ]
+}
