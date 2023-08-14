@@ -7,6 +7,13 @@
             "direction": "in",
             "path": "photos/{folderUser}/{blobname}.{blobextension}",
             "connection": "MyStorageAccountAppSetting"
+        },
+        {
+            "type": "queue",
+            "direction": "out",
+            "name": "photoCognitiveResult",
+            "queueName": "photocognitive",
+            "connection": "MyStorageAccountAppSetting"
         }
     ]
 }
