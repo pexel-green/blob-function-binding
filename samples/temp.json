@@ -1,0 +1,86 @@
+{
+    "data": {
+        "categories": [
+            {
+                "name": "outdoor_",
+                "score": 0.00390625,
+                "detail": {
+                    "landmarks": []
+                }
+            }
+        ],
+        "description": {
+            "tags": [
+                "building",
+                "outdoor",
+                "person",
+                "way",
+                "sidewalk",
+                "stone",
+                "step",
+                "cement",
+                "curb"
+            ],
+            "captions": [
+                {
+                    "text": "a person walking on a street",
+                    "confidence": 0.4168471395969391
+                }
+            ]
+        },
+        "objects": [
+            {
+                "rectangle": {
+                    "x": 620,
+                    "y": 924,
+                    "w": 83,
+                    "h": 120
+                },
+                "object": "footwear",
+                "confidence": 0.534
+            },
+            {
+                "rectangle": {
+                    "x": 507,
+                    "y": 162,
+                    "w": 298,
+                    "h": 836
+                },
+                "object": "person",
+                "confidence": 0.787
+            },
+            {
+                "rectangle": {
+                    "x": 430,
+                    "y": 595,
+                    "w": 173,
+                    "h": 374
+                },
+                "object": "Luggage and bags",
+                "confidence": 0.581
+            },
+            {
+                "rectangle": {
+                    "x": 577,
+                    "y": 636,
+                    "w": 171,
+                    "h": 319
+                },
+                "object": "Jeans",
+                "confidence": 0.692,
+                "parent": {
+                    "object": "Trousers",
+                    "confidence": 0.692
+                }
+            }
+        ],
+        "requestId": "638e968e-bef9-4471-8a9d-dd965fa694ba",
+        "metadata": {
+            "height": 1116,
+            "width": 1674,
+            "format": "Jpeg"
+        },
+        "modelVersion": "2021-05-01"
+    },
+    "path": "photos/abx/Picture74.jpg"
+}
