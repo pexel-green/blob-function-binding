@@ -2,85 +2,112 @@
     "data": {
         "categories": [
             {
-                "name": "outdoor_",
-                "score": 0.00390625,
-                "detail": {
-                    "landmarks": []
-                }
+                "name": "people_",
+                "score": 0.99609375
+            }
+        ],
+        "color": {
+            "dominantColorForeground": "White",
+            "dominantColorBackground": "White",
+            "dominantColors": [
+                "White"
+            ],
+            "accentColor": "208BAB",
+            "isBwImg": false,
+            "isBWImg": false
+        },
+        "imageType": {
+            "clipArtType": 0,
+            "lineDrawingType": 0
+        },
+        "tags": [
+            {
+                "name": "human face",
+                "confidence": 0.9982848763465881
+            },
+            {
+                "name": "person",
+                "confidence": 0.9720652103424072
+            },
+            {
+                "name": "clothing",
+                "confidence": 0.936295747756958
+            },
+            {
+                "name": "chin",
+                "confidence": 0.932090163230896
+            },
+            {
+                "name": "forehead",
+                "confidence": 0.9177823066711426
+            },
+            {
+                "name": "boy",
+                "confidence": 0.9124004244804382
+            },
+            {
+                "name": "screenshot",
+                "confidence": 0.8938873410224915
+            },
+            {
+                "name": "neck",
+                "confidence": 0.8839948177337646
+            },
+            {
+                "name": "eyebrow",
+                "confidence": 0.8712567090988159
+            },
+            {
+                "name": "jaw",
+                "confidence": 0.8527675867080688
+            },
+            {
+                "name": "portrait",
+                "confidence": 0.8470093607902527
+            },
+            {
+                "name": "shirt",
+                "confidence": 0.5763192176818848
+            },
+            {
+                "name": "fabric",
+                "confidence": 0.536405622959137
             }
         ],
         "description": {
             "tags": [
-                "building",
-                "outdoor",
+                "text",
                 "person",
-                "way",
-                "sidewalk",
-                "stone",
-                "step",
-                "cement",
-                "curb"
+                "posing",
+                "male"
             ],
             "captions": [
                 {
-                    "text": "a person walking on a street",
-                    "confidence": 0.4168471395969391
+                    "text": "a boy in a blue shirt",
+                    "confidence": 0.3925703167915344
                 }
             ]
         },
         "objects": [
             {
                 "rectangle": {
-                    "x": 620,
-                    "y": 924,
-                    "w": 83,
-                    "h": 120
-                },
-                "object": "footwear",
-                "confidence": 0.534
-            },
-            {
-                "rectangle": {
-                    "x": 507,
-                    "y": 162,
-                    "w": 298,
-                    "h": 836
+                    "x": 414,
+                    "y": 78,
+                    "w": 626,
+                    "h": 653
                 },
                 "object": "person",
-                "confidence": 0.787
-            },
-            {
-                "rectangle": {
-                    "x": 430,
-                    "y": 595,
-                    "w": 173,
-                    "h": 374
-                },
-                "object": "Luggage and bags",
-                "confidence": 0.581
-            },
-            {
-                "rectangle": {
-                    "x": 577,
-                    "y": 636,
-                    "w": 171,
-                    "h": 319
-                },
-                "object": "Jeans",
-                "confidence": 0.692,
-                "parent": {
-                    "object": "Trousers",
-                    "confidence": 0.692
-                }
+                "confidence": 0.898
             }
         ],
-        "requestId": "638e968e-bef9-4471-8a9d-dd965fa694ba",
+        "brands": [],
+        "requestId": "8a8b69ee-14fb-486c-b2fd-b40ad2c2dbda",
         "metadata": {
-            "height": 1116,
-            "width": 1674,
-            "format": "Jpeg"
+            "height": 754,
+            "width": 1432,
+            "format": "Png"
         },
         "modelVersion": "2021-05-01"
     },
-    "path": "photos/abx/Picture74.jpg"
+    "path": "photos/abx/pcs.png"
 }
